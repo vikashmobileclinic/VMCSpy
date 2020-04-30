@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Linuxndroid/DroidSpy/blob/master/assets/webpublic/logo.png" height="60"><br>
+<img src="https://github.com/vikashmobileclinic/VMCSpy/blob/master/assets/webpublic/logo.png" height="60"><br>
 A cloud based remote android managment suite, powered by NodeJS
 </p>
 
@@ -44,7 +44,7 @@ A cloud based remote android managment suite, powered by NodeJS
 3. install PM2 
     - `npm install pm2 -g`
 
-4. Download and Extract [HERE](https://codeload.github.com/Linuxndroid/DroidSpy/zip/master)
+4. Download and Extract [HERE](https://codeload.github.com/vikashmobileclinic/VMCSpy/zip/master)
 
 5. In the extracted folder, run these commands
     - `npm install` <- install dependencies
@@ -56,7 +56,7 @@ A cloud based remote android managment suite, powered by NodeJS
     - Password: admin
     
 7. Set Username & Password Manually  
-    1. Stop DroidSpy `pm2 stop index`
+    1. Stop VMCSpy `pm2 stop index`
     2. Open `maindb.json` in a text editor
     3. under `admin` 
         - set the `username` as plain text
@@ -70,11 +70,11 @@ It's recommended to run DroidSpy behind a reverse proxy such as [NGINX](https://
 
 ## Happy Hacking
 ## Disclaimer
-<b>Linuxndroid Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
-DroidSpy is built for both Educational and Internal use ONLY.</b>
+<b>VMCSpy Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
+VMCSpy is built for both Educational and Internal use ONLY.</b>
 
 <br>
-<p align="center">Made with ❤️ By <a href="https://www.youtube.com/channel/UC2O1Hfg-dDCbUcau5QWGcgg">Linuxndroid</a></p>
+<p align="center">Made with ❤️ By <a href="https://www.youtube.com/channel/UC2O1Hfg-dDCbUcau5QWGcgg">VMCSpy</a></p>
 
 ## Credits
 
