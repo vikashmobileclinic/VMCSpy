@@ -63,6 +63,65 @@ A cloud based remote android managment suite, powered by NodeJS
         - set the `password` as a LOWERCASE MD5 hash
     4. save the file
     5. run `pm2 restart all`
+    
+    
+    ======================================================================
+    To Install on Linux vps ubuntu 
+    -------------------------------
+    sudo apt upgrade
+
+nodjs
+
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+
+java
+
+sudo apt install openjdk-11-jre-headless
+
+
+install PM2
+
+sudo npm install pm2 -g
+
+wget https://github.com/vikashmobileclinic/AndroidSpyServer/archive/master.zip
+
+install Unzip
+
+sudo apt-get install unzip
+
+unzip master
+
+cd AndroidSpyServer-master
+
+cd server
+
+npm install
+
+pm2 start index.js
+
+
+run on startup  (set on Startup)
+---------------------------------
+
+pm2 startup
+
+stop server
+-----------
+
+pm2 stop index   (stop server)
+
+
+to delete:->
+=========
+cd..
+
+cd..
+
+rm -r AndroidSpyServer-master
+rm -r master.zip
+    ======================================================================
 
 8. in your browser navigate to `http://<SERVER IP>:22533`
     
